@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +10,7 @@
 body {
     background: #000;
     color: #fff;
+    font-family: "Open Sans", sans-serif;
 }
 
 .main {
@@ -20,7 +24,7 @@ body {
 }
 
 .profile-container {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .profile-pic {
@@ -49,10 +53,12 @@ body {
 .content h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .content p {
     font-size: 1em;
     line-height: 1.6;
+    text-align: center;
 }
 
